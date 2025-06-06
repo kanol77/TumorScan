@@ -1,13 +1,13 @@
-# Interaktywna aplikacja do przeglądania danych MRI zapisanych w formacie .nii.
+# Interactive application for viewing MRI data saved in .nii format.
 
-## Pozwala użytkownikowi na:
--zaimportowanie pliku NIfTI, <br />
--przeglądanie przekrojów MRI w trzech rzutach: wieńcowym (coronal), strzałkowym (sagittal), osiowym (axial), <br />
--zmianę wyświetlanej warstwy za pomocą suwaka, <br />
--podgląd różnych kanałów danych (jeśli są obecne), <br />
--przełączanie między plikami bez restartowania programu, <br />
--podstawowy interfejs graficzny w Tkinter oraz wizualizację w matplotlib. <br />
+## Allows the user to:
+-import NIfTI file, <br />
+-view MRI cross-sections in three views: coronal, sagittal, axial, <br />
+-change the displayed layer with the slider, <br />
+-preview of various data channels (if present), <br />
+-switch between files without restarting the program, <br />
+-use a basic graphical interface in Tkinter and visualization in matplotlib. <br />
 
-## Dodatkowo:
--Aplikacja monitoruje zużycie pamięci (tracemalloc), <br />
--Automatycznie dopasowuje okno podglądu do rozmiaru ekranu.
+## Additionally:
+-The application monitors memory usage (tracemalloc), <br />
+-Automatically adjusts the preview window to fit the screen size.
